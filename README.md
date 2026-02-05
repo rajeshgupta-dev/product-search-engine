@@ -209,6 +209,7 @@ The API is deployed and publicly accessible.
 ### 🔗 Live API URL
 
 ```
+https://product-search-engine-jadx.onrender.com/
 ```
 
 ---
