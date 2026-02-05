@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rajeshgupta-dev/product-search-engine.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nodejs", "express", "search", "ranking"],
+  "author": "Rajesh Gupta",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -20,7 +21,7 @@
   "homepage": "https://github.com/rajeshgupta-dev/product-search-engine#readme",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
